@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Whack A Duck </title>
 </head>
 <body>
+    
 <div id="w-stats">
-    <div class="start-stop" id="start">START THE GAME</div>
-    <div id="counter">SCORE : <span>0</span> POINTS</div>
+    <div id="start"><i class="bi bi-play-fill"></i><span class="play-desk">START THE GAME</span> </div>
+    <div id="counter">SCORE : <span class="score">0</span> Points</div>
+    <div id="hight">Your Heighest Score : <span class="hight-score"> 0</span> </div>
     <div id="timer"><span>60</span>  s</div>
-    <div id="hight">Your Heighest Score is : <span> 0</span> </div>
+   <div id="credit-desk">By Salhi Ahmed Abd Elmouiz</div>
+    
 </div>
-
+<div id="hight-mobile">Your Heighest Score : <span class="hight-score"> 0</span> </div>
     <div id="w-game">
         <div></div>
         <div></div>
@@ -27,6 +32,7 @@
         <div></div>
         <div></div>
     </div>
+    <div id="credit-mobile">By Salhi Ahmed Abd Elmouiz</div>
 <script src="game.js"></script>
 </body>
 </html>
