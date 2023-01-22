@@ -10,7 +10,7 @@ $("#start").click(function(){
         sec = 60;
         score = 0 ; 
         $("#counter .score").text(score)
-        $("#start").html(" <i class='bi bi-pause-fill'></i><span class='play-desk'> Stop The Gam</span>");
+        $("#start").html(" <i class='bi bi-pause-fill'></i><span class='play-desk'> Stop The Game</span>");
         start = 1 ;
         game = setInterval(function(){
             do{
