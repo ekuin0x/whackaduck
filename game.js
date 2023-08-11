@@ -1,3 +1,4 @@
+/* HeLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO !!!!!!!!!! */
 const palette = Array("#FD8A8A", "#F1F7B5", "#A8D1D1", "#9EA1D4", "#FD8A8A", "#9ADCFF")
 for(var i = 1; i <= 9 ; i++ ){
     var rand_color = Math.floor(Math.random() * palette.length ) ;
